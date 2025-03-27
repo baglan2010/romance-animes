@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Топ-8 романтических аниме</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: #0d0d23;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, #0d0d23, #1a1a40);
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.7);
+        }
+
+        .card h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+
+        .info {
+            text-align: left;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        .rating {
+            color: #ffcc00;
+            font-size: 18px;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #99ccff;
+            margin-top: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: #fff;
+            background: #ffcc00;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <h1>🔥 Романтики которые советует Баглан 🔥</h1>
+
+    <div class="container">
+        <div class="card" onclick="window.location.href='https://jut.su/seishun-buta/'">
+            <h2>Этот глупый свин не понимает мечту</h2>
+            <div class="info">
+                <p class="rating">⭐ 8.5/10</p>
+                <p>📌 Жанры: Школа, романтика, фантастика</p>
+                <p>📅 Год выхода: 2018</p>
+                <p>🔥 Статус: Завершено</p>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='https://jut.su/darling-in-the-franxx/'">
+            <h2>Милый во Франксе</h2>
+            <div class="info">
+                <p class="rating">⭐ 7.5/10</p>
+                <p>📌 Жанры: Романтика, фантастика, меха</p>
+                <p>📅 Год выхода: 2018</p>
+                <p>🔥 Статус: Завершено</p>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='https://jut.su/gotoubun-no-hanayome/'">
+            <h2>Пять невест</h2>
+            <div class="info">
+                <p class="rating">⭐ 7.8/10</p>
+                <p>📌 Жанры: Романтика, комедия</p>
+                <p>📅 Год выхода: 2019</p>
+                <p>🔥 Статус: Завершено</p>
+            </div>
+        </div>
+
+        <div class="card" onclick="window.location.href='https://jut.su/kanojo-okarishimasu/'">
+            <h2>Девушка на прокат</h2>
+            <div class="info">
+                <p class="rating">⭐ 7.1/10</p>
+                <p>📌 Жанры: Романтика, комедия</p>
+                <p>📅 Год выхода: 2020</p>
+                <p>🔥 Статус: Идет</p>
+            </div>
+        </div>
+
+
+        
+
+        <div class="card" onclick="window.location.href='https://jut.su/horimiya/'">
+            <h2>Хоримия</h2>
+            <div class="info">
+                <p class="rating">⭐ 8.6/10</p>
+                <p>📌 Жанры: Школа, романтика</p>
+                <p>📅 Год выхода: 2021</p>
+                <p>🔥 Статус: Завершено</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</body>
+</html>
